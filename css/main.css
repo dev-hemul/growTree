@@ -243,6 +243,14 @@ body {
     pointer-events: auto;
 }
 
+@media screen and (max-width: 576px) {
+    .header-content h1 {
+    font-size: calc(var(--index) * 10);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+}
+
 
 
 
